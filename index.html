@@ -1,226 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>HeartHeist | Luxury Perfumes & Essential Oils</title>
 
-    <!-- Google Font -->
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-nav">
-    <div class="container">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-nav">
+        <div class="container">
 
-        <a class="navbar-brand logo" href="#">
-            HeartHeist
-        </a>
+            <a class="navbar-brand logo" href="#">
+                <i class="fa-solid fa-crown"></i> HeartHeist
+            </a>
 
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="menu">
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
 
-            <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Shop</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Essential Oils</a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Essential Oils</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
+                </ul>
+            </div>
 
-            </ul>
+        </div>
+    </nav>
+
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        ✨ Free Shipping on Orders Above ₹999 | Premium Perfumes & Essential Oils
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+
+        <div class="overlay"></div>
+
+        <div class="container hero-content">
+
+            <span class="subtitle">
+                LUXURY PERFUMES & ESSENTIAL OILS
+            </span>
+
+            <h1>
+                Steal Every Heart <br>
+                With Every Scent
+            </h1>
+
+            <p>
+                Discover handcrafted luxury perfumes and therapeutic essential oils
+                designed for unforgettable moments.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="shop.html" class="btn btn-gold">
+                    Shop Perfumes
+                </a>
+
+                <a href="shop.html" class="btn btn-outline-light">
+                    Explore Oils
+                </a>
+
+            </div>
 
         </div>
 
-    </div>
-</nav>
+    </section>
 
-<section class="hero">
+    <!-- Categories -->
+    <section class="categories">
 
-<div class="container">
+        <div class="container">
 
-<h1>Steal Every Heart<br>With Every Scent</h1>
+            <h2 class="section-title">
+                Explore Collection
+            </h2>
 
-<p>
-Luxury Perfumes & Pure Essential Oils crafted to create unforgettable memories.
-</p>
+            <div class="row">
 
-<a href="#" class="btn btn-gold">
-Explore Collection
-</a>
+                <div class="col-md-4">
+                    <div class="category-card">
 
-</div>
+                        <i class="fa-solid fa-spray-can-sparkles"></i>
 
-</section>
+                        <h3>Luxury Perfumes</h3>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+                        <p>Long-lasting premium fragrances.</p>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="category-card">
+
+                        <i class="fa-solid fa-leaf"></i>
+
+                        <h3>Essential Oils</h3>
+
+                        <p>100% Pure therapeutic oils.</p>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="category-card">
+
+                        <i class="fa-solid fa-gift"></i>
+
+                        <h3>Luxury Gift Boxes</h3>
+
+                        <p>Luxury gifting experience.</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Featured Collection -->
+    <section class="featured">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                Our Collection
+            </h2>
+
+            <div class="cards">
+
+                <div class="hh-card">
+
+                    <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=600&auto=format&fit=crop"
+                        alt="Luxury Perfume">
+
+                    <div class="card-content">
+
+                        <h3>Luxury Perfumes</h3>
+
+                        <p>
+                            Premium long-lasting fragrances crafted for every occasion.
+                        </p>
+
+                        <a href="shop.html" class="card-btn">
+                            Explore
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="hh-card">
+
+                    <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600&auto=format&fit=crop"
+                        alt="Essential Oil">
+
+                    <div class="card-content">
+
+                        <h3>Essential Oils</h3>
+
+                        <p>
+                            100% Pure therapeutic-grade essential oils for wellness.
+                        </p>
+
+                        <a href="shop.html" class="card-btn">
+                            Explore
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="hh-card">
+
+                    <img src="https://images.unsplash.com/photo-1523293182086-7651a899d37f?w=600&auto=format&fit=crop"
+                        alt="Gift Set">
+
+                    <div class="card-content">
+
+                        <h3>Luxury Gift Sets</h3>
+
+                        <p>
+                            Elegant fragrance gift collections for every celebration.
+                        </p>
+
+                        <a href="shop.html" class="card-btn">
+                            Explore
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-<div class="announcement-bar">
-    ✨ Free Shipping on Orders Above ₹999 | Premium Perfumes & Essential Oils
-</div>
-<section class="categories">
-
-<div class="container">
-
-<h2 class="section-title">
-Explore Collection
-</h2>
-
-<div class="row">
-
-<div class="col-md-4">
-
-<div class="category-card">
-
-<i class="fa-solid fa-spray-can-sparkles"></i>
-
-<h3>Luxury Perfumes</h3>
-
-<p>Long-lasting premium fragrances.</p>
-
-</div>
-
-</div>
-
-<div class="col-md-4">
-
-<div class="category-card">
-
-<i class="fa-solid fa-leaf"></i>
-
-<h3>Essential Oils</h3>
-
-<p>100% Pure therapeutic oils.</p>
-
-</div>
-
-</div>
-
-<div class="col-md-4">
-
-<div class="category-card">
-
-<i class="fa-solid fa-gift"></i>
-
-<h3>Gift Boxes</h3>
-
-<p>Luxury gifting experience.</p>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-<a class="navbar-brand logo" href="#">
-    <i class="fa-solid fa-crown"></i> HeartHeist
-<section class="hero">
-
-    <div class="overlay"></div>
-
-    <div class="container hero-content">
-
-        <span class="subtitle">
-            LUXURY PERFUMES & ESSENTIAL OILS
-        </span>
-
-        <h1>
-            Steal Every Heart<br>
-            With Every Scent
-        </h1>
-
-        <p>
-            Discover handcrafted luxury perfumes and therapeutic essential oils
-            designed for unforgettable moments.
-        </p>
-
-        <div class="hero-buttons">
-
-            <a href="shop.html" class="btn btn-gold">
-                Shop Perfumes
-            </a>
-
-            <a href="shop.html" class="btn btn-outline-light">
-                Explore Oils
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-<!-- Featured Collection -->
-
-<section class="featured">
-
-    <div class="container">
-
-        <h2>Our Collection</h2>
-
-        <<div class="card">
-
-    <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=600&auto=format&fit=crop" alt="Luxury Perfume">
-
-    <h3>Luxury Perfumes</h3>
-
-    <p>Premium long-lasting fragrances crafted for every occasion.</p>
-
-    <a href="shop.html" class="card-btn">Explore</a>
-
-</div>
-
-            <<<div class="card">
-
-    <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=600&auto=format&fit=crop" alt="Luxury Perfume">
-
-    <h3>Luxury Perfumes</h3>
-
-    <p>Premium long-lasting fragrances crafted for every occasion.</p>
-
-    <a href="shop.html" class="card-btn">Explore</a>
-
-</div>
-
-            <<div class="card">
-
-    <img src="https://images.unsplash.com/photo-1523293182086-7651a899d37f?w=600&auto=format&fit=crop" alt="Gift Set">
-
-    <h3>Luxury Gift Sets</h3>
-
-    <p>Elegant fragrance gift collections for every celebration.</p>
-
-    <a href="shop.html" class="card-btn">Explore</a>
-
-</div>
-
-</section>
